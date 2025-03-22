@@ -15,6 +15,7 @@ Step 6 :
 	Launching an application server in the public subnet
 	
 	#!/bin/bash
+	sudo su
 	# Install Apache Web Server and PHP
 	yum install -y httpd mysql
 	amazon-linux-extras install -y php7.2
